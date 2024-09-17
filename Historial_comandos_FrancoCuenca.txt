@@ -1,0 +1,23 @@
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+touch "tcpdump" > comando_dump_net
+ls
+rm tcpdump 
+ls
+cat comando_dump_net 
+echo "tcpdump" > comando_dump_net 
+cat comando_dump_net 
+echo "sudo tcpdump net" >> comando_dump_net 
+cat comando_dump_net 
+ls
+echo "Alumno: Franco Cuenca" >> README.md 
+cat README.md 
+echo "\nDivision: 318" >> README.md 
+cat README.md 
+echo "Turno: noche" >> README.md 
+git add .
+git commit -m "feat: Agregar tcpdump y datos personales en README "
+history -a
